@@ -1,0 +1,7 @@
+{
+  "device": "cpu", "optimizers": ["adamw", "asam", "muon"],
+  "seeds": [11, 29, 47], "steps": 200, "batch_size": 64,
+  "lr": 0.001, "muon_lr": 0.02, "asam_rho": 0.1,
+  "grad_clip": 1.0, "eval_games": 40, "eval_positions": 100,
+  "eval_simulations": 32, "torch_threads": 1
+}

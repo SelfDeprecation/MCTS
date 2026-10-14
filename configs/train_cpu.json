@@ -1,0 +1,9 @@
+{
+  "game": "tictactoe", "seed": 7, "device": "cpu",
+  "iterations": 12, "games_per_iteration": 24, "updates_per_iteration": 80,
+  "batch_size": 64, "replay_capacity": 20000,
+  "width": 64, "blocks": 2, "simulations": 48,
+  "method": "serial", "workers": 4, "optimizer": "adamw",
+  "lr": 0.001, "grad_clip": 1.0, "eval_games": 24,
+  "eval_positions": 100, "eval_every": 2, "torch_threads": 1
+}

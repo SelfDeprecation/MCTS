@@ -1,0 +1,8 @@
+{
+  "game": "tictactoe", "device": "cpu", "evaluator": "neural",
+  "methods": ["serial", "tree", "async"],
+  "workers": [4, 8], "batch_sizes": [1, 4, 8], "virtual_losses": [0.0, 1.0, 2.0],
+  "simulations": [128], "positions": 6,
+  "seeds": [11, 29, 47], "repeats": 1,
+  "batch_timeout_ms": 1.0, "symmetry": true, "torch_threads": 1
+}

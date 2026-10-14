@@ -1,0 +1,9 @@
+{
+  "game": "connect4", "device": "cuda", "evaluator": "neural",
+  "methods": ["serial", "leaf", "root", "tree", "async"],
+  "workers": [4, 8, 16], "batch_sizes": [1, 4, 8, 16],
+  "virtual_losses": [1.0], "simulations": [256],
+  "positions": 16, "seeds": [11, 29, 47], "repeats": 3,
+  "batch_timeout_ms": 1.0, "width": 256, "blocks": 4,
+  "symmetry": true, "torch_threads": 1
+}

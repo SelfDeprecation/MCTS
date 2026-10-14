@@ -1,0 +1,7 @@
+{
+  "game": "tictactoe", "device": "cpu", "evaluator": "rollout",
+  "methods": ["serial", "leaf", "root", "tree"],
+  "workers": [4], "rollout_backends": ["threads", "processes"],
+  "simulations": [256], "positions": 12,
+  "seeds": [11, 29, 47], "repeats": 2, "torch_threads": 1
+}

@@ -1,0 +1,10 @@
+{
+  "game": "connect4", "seed": 7, "device": "auto",
+  "iterations": 50, "games_per_iteration": 24, "updates_per_iteration": 80,
+  "batch_size": 128, "replay_capacity": 50000,
+  "width": 256, "blocks": 4, "simulations": 64,
+  "method": "async", "workers": 16, "inference_batch": 16,
+  "batch_timeout_ms": 1.0, "optimizer": "adamw", "lr": 0.001,
+  "grad_clip": 1.0, "eval_games": 16, "eval_positions": 64,
+  "eval_every": 5, "torch_threads": 1
+}

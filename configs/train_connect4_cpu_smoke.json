@@ -1,0 +1,8 @@
+{
+  "game": "connect4", "seed": 19, "device": "cpu",
+  "iterations": 1, "games_per_iteration": 4, "updates_per_iteration": 5,
+  "batch_size": 16, "width": 64, "blocks": 2, "simulations": 16,
+  "method": "async", "workers": 4, "inference_batch": 4,
+  "optimizer": "muon", "grad_clip": 1.0,
+  "eval_games": 4, "eval_positions": 12, "eval_every": 1
+}
